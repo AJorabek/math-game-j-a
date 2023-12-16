@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.start-game{
+  display: flex;
+  gap: 50px;
+}
+.start {
+  width: 100%;
+  border: none;
+  padding: 5px 15px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.restart {
+  width: 100%;
+  border: none;
+  padding: 5px 15px;
+  background-color: #000000;
+  a {
+    color: #ffffff;
+  }
+}
+.hidden{
+  display: none;
+}
+#x{
+  color: rgb(60, 255, 0);
+}
+#y{
+  color: #ff00d4;
+}
+.answers{
+  gap: 20px;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(1 4);
+}
